@@ -1,0 +1,41 @@
+# --- Node & package managers ---
+node_modules/
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# 保留鎖檔（要追蹤）
+# pnpm-lock.yaml
+
+# --- Build outputs / caches ---
+dist/
+storybook-static/
+coverage/
+*.tsbuildinfo
+node_modules/.cache/
+.vite/
+.turbo/
+.playwright/
+test-results/
+cypress/
+cypress/videos/
+cypress/screenshots/
+
+# --- Storybook ---
+storybook.log
+# 舊版輸出有時會用這個
+dist-storybook/
+
+# --- Env files ---
+.env*
+!.env.example
+
+# --- Editors / OS ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Misc ---
+*.local
+*.log
