@@ -1,4 +1,4 @@
-# fm-component Storybook 使用說明
+# fm-component Storybook
 
 base on [shadcn/ui](https://ui.shadcn.com/) library
 
@@ -6,13 +6,13 @@ base on [shadcn/ui](https://ui.shadcn.com/) library
 
 ### install dependencies
 
-使用 pnpm 安裝dependencies：
+pnpm to install dependencies：
 
 ```bash
 pnpm install
 ```
 
-### 啟動 Storybook
+### Storybook
 
 ```bash
 pnpm storybook
@@ -24,7 +24,7 @@ pnpm storybook
 - `src/lib/`：utils and hooks
 - `index.ts`： export components and utils
 
-## 其他命令
+## Build & Test
 
 - build component：
   ```bash
@@ -34,6 +34,3 @@ pnpm storybook
   ```bash
   pnpm test
   ```
-
----
-
