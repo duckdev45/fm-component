@@ -46,7 +46,9 @@
     "tsup": "^8.1.0",
     "typescript": "^5.4.5",
     "vite": "^5.3.1",
-    "vite-tsconfig-paths": "^4.3.2"
+    "vite-tsconfig-paths": "^4.3.2",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",
